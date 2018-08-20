@@ -1,0 +1,36 @@
+﻿@model PartFormViewModel
+
+@{
+    ViewData["Title"] = "Edit Part";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+
+            <div class="form-group">
+                <label asp-for="Name">Name</label>
+                <input asp-for="Name" type="text" class="form-control" required readonly />
+                <span asp-validation-for="Name" class="form-text text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price">Price</label>
+                <input asp-for="Price" type="number" class="form-control" required />
+                <span asp-validation-for="Price" class="form-text text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity">Quantity</label>
+                <input asp-for="Quantity" type="number" min="1" class="form-control" required />
+                <span asp-validation-for="Quantity" class="form-text text-danger"></span>
+            </div>
+
+            <div>
+                <input type="submit" class="btn btn-success" value="Save Part" />
+            </div>
+        </form>
+    </div>
+</div>
+

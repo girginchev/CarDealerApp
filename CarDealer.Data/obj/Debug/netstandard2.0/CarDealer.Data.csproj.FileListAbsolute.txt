@@ -1,0 +1,16 @@
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\obj\Debug\netstandard2.0\CarDealer.Data.csprojAssemblyReference.cache
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\obj\Debug\netstandard2.0\CarDealer.Data.csproj.CoreCompileInputs.cache
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\obj\Debug\netstandard2.0\CarDealer.Data.AssemblyInfoInputs.cache
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\obj\Debug\netstandard2.0\CarDealer.Data.AssemblyInfo.cs
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\bin\Debug\netstandard2.0\CarDealer.Data.deps.json
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\bin\Debug\netstandard2.0\CarDealer.Data.dll
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\obj\Debug\netstandard2.0\CarDealer.Data.csproj.CopyComplete
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\bin\Debug\netstandard2.0\CarDealer.Data.pdb
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\obj\Debug\netstandard2.0\CarDealer.Data.dll
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Data\obj\Debug\netstandard2.0\CarDealer.Data.pdb

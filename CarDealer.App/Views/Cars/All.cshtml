@@ -1,0 +1,46 @@
+﻿@model CarsAllViewModel
+@{
+    ViewData["Title"] = "All Cars";
+}
+
+<h2>All Cars 
+    <a href="/cars/create" class="btn btn-primary">Add Car</a>
+</h2>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>
+                Make
+            </th>
+            <th>
+                Model
+            </th>
+            <th>
+                Travelled Distance
+            </th>
+            <th>
+                Parts
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Model.Cars)
+        {
+        <tr>
+            <td>
+                <a href="/cars/@car.Make">@car.Make</a>
+            </td>
+            <td>
+                @car.Model
+            </td>
+            <td>
+                @car.TravelledDistance Km.
+            </td>
+            <td>
+                <a href="@car.Id/parts">Part Details</a>
+                </td>
+        </tr>
+        }
+    </tbody>
+</table>

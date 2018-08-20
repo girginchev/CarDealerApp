@@ -1,0 +1,17 @@
+﻿@model CarWithPartsViewModel
+
+@{
+    ViewData["Title"] = $"Car with {Model.Car.Id} and it's parts";
+}
+
+<h2>Parts for car @Model.Car.Make @Model.Car.Model</h2>
+
+
+<ul>
+    @foreach (var part in Model.Car.Parts)
+    {
+            <li>@part.Name  -  $@part.Price.ToString("F2")</li>
+    }
+</ul>
+
+

@@ -1,0 +1,12 @@
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Services\bin\Debug\netstandard2.0\CarDealer.Services.deps.json
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Services\bin\Debug\netstandard2.0\CarDealer.Services.dll
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.csproj.CoreCompileInputs.cache
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.AssemblyInfoInputs.cache
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.AssemblyInfo.cs
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.csprojAssemblyReference.cache
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Services\bin\Debug\netstandard2.0\CarDealer.Services.pdb
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Services\bin\Debug\netstandard2.0\CarDealer.Data.dll
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Services\bin\Debug\netstandard2.0\CarDealer.Data.pdb
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.csproj.CopyComplete
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.dll
+C:\Users\girgi\source\repos\CarDealer\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.pdb

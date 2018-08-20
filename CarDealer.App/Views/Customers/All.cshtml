@@ -1,0 +1,62 @@
+﻿@model CarDealer.App.Models.Customers.CustomerOrderViewModel
+
+@{
+    ViewData["Title"] = "All Customers";
+}
+
+<h2>All Customers</h2> 
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Order by Birthdate
+        </button>
+        <div class="dropdown-menu">
+            <ul>
+                <li>
+                    <a class="dropdown-item" href="/customers/all/ascending">Ascending</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/customers/all/descending">Descending</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+<h3>Ordered by @Model.OrderType.ToString().ToLower() direction</h3>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                BirthDate
+            </th>
+            <th>
+                 Young driver
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model.AllCustomers)
+        {
+        <tr>
+            <td>
+                @customer.Name
+            </td>
+            <td>
+                @customer.BirthDate
+            </td>
+            <td>
+                @(customer.IsYoungDriver ? "Yes" : "No")
+            </td>
+            <td>
+                <a class="btn btn-sm btn-warning" href="/customers/edit/@customer.Id">Edit</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+

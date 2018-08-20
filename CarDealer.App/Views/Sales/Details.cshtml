@@ -1,0 +1,19 @@
+﻿@model SaleDetailsServiceModel
+
+@{
+    ViewData["Title"] = "Sale Details";
+}
+
+<h2>Sale Details</h2>
+
+<h4>Customer name: @Model.CustomerName</h4>
+
+<h4>Discount: @(((Model.Discount + (Model.IsYoungDriver ? 0.05 : 0)) * 100).ToString("F2"))%</h4>
+
+<h4>Discounted price: @Model.DiscountedPrice.ToString("F2") $</h4>
+
+<br>
+
+<h4>Car Info: @Model.Car.Make @Model.Car.Model - @Model.Car.TravelledDistance Km.</h4>
+
+
